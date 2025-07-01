@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Create Bills</title>
+<link href="../../css/styles.css" rel="stylesheet"/></head>
+<body>
+<div class="bill-box">
+<h2>Create Bill</h2>
+<label for="memberSelect">Select Member</label>
+<select id="memberSelect">
+<option value="">Loading members...</option>
+</select>
+<label for="amount">Amount</label>
+<input id="amount" placeholder="Enter amount" type="number"/>
+<label for="dueDate">Due Date</label>
+<input id="dueDate" type="date"/>
+<label for="status">Status</label>
+<select id="status">
+<option value="Unpaid">Unpaid</option>
+<option value="Paid">Paid</option>
+</select>
+<button onclick="createBill()">Create Bill</button>
+<p class="message" id="msg"></p>
+</div>
+<script src="../../src/admin/create-bills.js"></script></body>
+</html>

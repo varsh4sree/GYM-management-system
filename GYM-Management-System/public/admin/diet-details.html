@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Diet Details</title>
+<link href="../../css/styles.css" rel="stylesheet"/></head>
+<body>
+<div class="container">
+<h2>Assign Diet Plan</h2>
+<label for="memberSelect">Select Member</label>
+<select id="memberSelect">
+<option value="">Loading members...</option>
+</select>
+<label for="dietPlan">Diet Plan</label>
+<textarea id="dietPlan" placeholder="Enter meal plan, restrictions, timing..."></textarea>
+<button id="assignBtn">Assign Diet</button>
+<p class="message" id="msg"></p>
+<div class="diet-list" id="dietList"></div>
+</div>
+<script src="../../src/admin/diet-details.js"></script></body>
+</html>

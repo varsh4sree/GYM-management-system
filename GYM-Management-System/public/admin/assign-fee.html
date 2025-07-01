@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Assign Fee Package</title>
+<link href="../../css/styles.css" rel="stylesheet"/></head>
+<body>
+<div class="assign-box">
+<h2>Assign Fee Package</h2>
+<label for="memberSelect">Select Member</label>
+<select id="memberSelect">
+<option value="">Loading members...</option>
+</select>
+<label for="feePackage">Select Package</label>
+<select id="feePackage">
+<option value="">-- Choose Package --</option>
+<option value="Monthly">Monthly</option>
+<option value="Quarterly">Quarterly</option>
+<option value="Half-Yearly">Half-Yearly</option>
+<option value="Yearly">Yearly</option>
+</select>
+<button onclick="assignFee()">Assign Package</button>
+<p class="message" id="msg"></p>
+</div>
+<script src="../../src/admin/assign-fee.js"></script></body>
+</html>

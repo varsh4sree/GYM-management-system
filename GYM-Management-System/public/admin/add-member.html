@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Add Member</title>
+<link href="../../css/styles.css" rel="stylesheet"/></head>
+<body>
+<div class="container">
+<h1>Add Member</h1>
+<label for="mName">Name</label>
+<input id="mName" placeholder="Full Name" type="text"/>
+<label for="mPhone">Phone</label>
+<input id="mPhone" placeholder="Phone Number" type="text"/>
+<label for="mEmail">Email</label>
+<input id="mEmail" placeholder="Email Address" type="email"/>
+<label for="mJoin">Join Date</label>
+<input id="mJoin" type="date"/>
+<label for="mPackage">Package Type</label>
+<select id="mPackage">
+<option value="">-- Select --</option>
+<option value="Monthly">Monthly</option>
+<option value="Quarterly">Quarterly</option>
+<option value="Half-Yearly">Half-Yearly</option>
+<option value="Yearly">Yearly</option>
+</select>
+<button id="addBtn">Add Member</button>
+<div id="message"></div>
+<div class="back-link">
+<a href="admin-dash.html">← Back to Dashboard</a>
+</div>
+</div>
+<script src="../../src/admin/add-member.js"></script></body>
+</html>
